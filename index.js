@@ -9,7 +9,7 @@ var pNames = document.getElementsByTagName("p");
 pNames[0].innerHTML = p1;
 pNames[1].innerHTML = p2;
 
-//The random numbers between 1-6, so we don't need index zero or we could change the images name but this is easier.
+//The random number between 1-6, so we don't need index zero or we could change the images name but that is easier.
 var pics = [{ src: "" }, { src: 'images/dice1.png' },
 { src: 'images/dice2.png' },
 { src: 'images/dice3.png' },
@@ -25,7 +25,7 @@ function setImages() {
     dice();
 }
 
-// Change the h1 to the higher number between Player 1 and Player 2
+// Change the h1 to the higher number between Player 1 and Player 2 or if it a draw
 
 function dice() {
 
